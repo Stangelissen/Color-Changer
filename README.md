@@ -15,12 +15,12 @@ or download and link to the script in your head tag
 
 before using the script it is important to understand the parameters set as deafault. These deafault settings can be changed.
 
-var defaults = {
+    var defaults = {
 
   	color: ["red","blue","gray", "orange", "pink"],
 	  colorEvent: "click"
   
-};
+    };
 
 Color is a array for the colors who are randomly selected. 
 
@@ -30,28 +30,28 @@ ColorEvent is the function you use to activate the function
 
 To activate and use the script, you need to put the folowing code in your html. 
 
-<script type="text/javascript">
+    <script type="text/javascript">
 
-$(".ChangeColor").ChangeColor({
-
-
-});
+    $(".ChangeColor").ChangeColor({
 
 
-</script>
+    });
+
+
+    </script>
 
 If you want, you can change the deafault settings as follow 
 
-<script type="text/javascript">
+    <script type="text/javascript">
 
-$(".ChangeColor").ChangeColor({
+    $(".ChangeColor").ChangeColor({
 
 	color: ["red", "green", "brown"],
 	colorEvent: "mouseover"
 
-});
+    });
 
-</script>
+    </script>
 
 
 
@@ -59,7 +59,8 @@ $(".ChangeColor").ChangeColor({
 
 The html structure isn't hard. The only thing you need to do is to add the class ChangeCollor of the object as in the example.
 
-<h1 class="ChangeColor">Click to change color</h1>
+
+    <h1 class="ChangeColor">Click to change color</h1>
 
 
 # Demo
