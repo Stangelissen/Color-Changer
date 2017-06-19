@@ -1,7 +1,7 @@
 # Color-Changer
 Change the colors of your headers, paragraphs and more!
 
-#Install
+# Install
 
 Clone the repo
 
